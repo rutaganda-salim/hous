@@ -10,8 +10,8 @@ export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="bg-[#14211C] px-4 py-3">
-      <nav className="max-w-6xl mx-auto bg-gradient-to-r from-[#485550] to-white/10 backdrop-blur-sm rounded-3xl">
+    <div className="bg-[#14211C] px-4 py-5">
+      <nav className="max-w-[75rem] mx-auto bg-gradient-to-r from-[#485550] to-white/10 backdrop-blur-sm rounded-2xl">
         <div className="px-6 py-1 flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="flex items-center gap-2">
